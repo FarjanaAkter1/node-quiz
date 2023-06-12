@@ -1,7 +1,7 @@
 {
-  "name": "node-assessment",
+  "name": "assessment",
   "version": "1.0.0",
-  "description": "",
+  "description": "The assessment will assess your understanding of the material provided\r in the Node unit, in this case `Node.js` and `express`.",
   "main": "server.js",
   "scripts": {
     "merge": "node util/merge.js",
@@ -10,11 +10,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "lodash": "^4.17.21",
     "mysql2": "^3.3.4",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {
     "eslint": "^7.17.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarjanaAkter1/node-quiz.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/FarjanaAkter1/node-quiz/issues"
+  },
+  "homepage": "https://github.com/FarjanaAkter1/node-quiz#readme"
 }
